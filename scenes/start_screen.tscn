@@ -1,0 +1,25 @@
+[gd_scene load_steps=2 format=3 uid="uid://bb7i3p5qa4w3o"]
+
+[ext_resource type="Script" path="res://scripts/start_screen.gd" id="1_d2nfr"]
+
+[node name="StartScreen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d2nfr")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_right = 142.0
+offset_bottom = 40.0
+text = "some text"
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="."]
+layout_mode = 0
+offset_top = 48.0
+offset_right = 118.0
+offset_bottom = 72.0
+text = "click a button"
